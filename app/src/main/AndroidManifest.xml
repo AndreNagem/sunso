@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="br.com.andre.sunso">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon"
+            android:label=""
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            >
+
+        <activity android:name=".Login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".Listaestados.ListaEstados"></activity>
+        <activity android:name=".Consumo.Consumo"></activity>
+        <activity android:name=".Resultado.Resultado"></activity>
+        <activity android:name=".Resultado.FragmentResultado"></activity>
+        <activity android:name=".financiamentos.fisico"></activity>
+        <activity android:name=".financiamentos.juridico"></activity>
+        <activity android:name=".financiamentos.desenvolvesp"></activity>
+        <activity android:name=".financiamentos.banco_fisico"></activity>
+        <activity android:name=".Login.sign_in"></activity>
+        <activity android:name=".contato.contato"></activity>
+    <activity android:name=".explcacao"></activity>
+
+
+
+
+
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

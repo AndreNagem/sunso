@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "804139678820",
+    "firebase_url": "https://sunso-43328.firebaseio.com",
+    "project_id": "sunso-43328",
+    "storage_bucket": "sunso-43328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804139678820:android:bcf9d9864607f23ee37371",
+        "android_client_info": {
+          "package_name": "br.com.andre.sunso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804139678820-0b26rripladhk0kuhdt8iklbgfjugo19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.andre.sunso",
+            "certificate_hash": "b7b55eb7320658c9de3a29d91128781ef33769d9"
+          }
+        },
+        {
+          "client_id": "804139678820-tvbvmnuvkdpp5l0gkcvd74vdkiq2smtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRdNQg_bDM5cBEsiiNlWQo2r2ZBW5wpgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804139678820-tvbvmnuvkdpp5l0gkcvd74vdkiq2smtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

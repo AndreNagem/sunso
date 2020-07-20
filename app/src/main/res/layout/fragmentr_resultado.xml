@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+            android:id="@+id/Fisica"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/botao_redondo"
+            android:textStyle="bold"
+            android:textColor="@color/Branco"
+            android:layout_gravity="center"
+            android:text="@string/fisico"
+
+            />
+
+    <Button
+            android:id="@+id/Juridica"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/botao_redondo"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/Branco"
+            android:text="@string/juridico"
+
+            />
+
+</LinearLayout>
+
+</ScrollView>

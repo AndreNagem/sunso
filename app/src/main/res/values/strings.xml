@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sunso</string>
+    <string name="Acre">Acre</string>
+    <string name="Usuário">Usuario</string>
+    <string name="Financiamentos">Financiamento</string>
+    <string name="BancoDoBrasil">Banco Do Brasil</string>
+    <string name="Santander">Santander</string>
+    <string name="BVSolar">BVSolar</string>
+    <string name="DesenvolveSP">Simulação</string>
+    <string name="BandoDoNordeste">Banco Do Nordeste</string>
+    <string name="juridico">Pessoa jurídica</string>
+    <string name="fisico">Pessoa física</string>
+    <string name="DesenvolveTexto">   A Desenvolve SP - o Banco do Empreendedor é uma  instituição financeira do Governo do Estado de São Paulo que oferece as melhores opções de financiamento para transformar o projeto de crescimento da sua empresa em realidade. A Desenvolve SP possui linhas especiais para projetos de energia renovável com taxas de juros competitivas e longos prazos para pagamento. Para essa simulação foi considerado 60 meses de financiamento e 24 meses de carência. Durante a carência a cada 3 meses é cobrada a parcela de 3 meses de juros em relação ao saldo devedor.</string>
+    <string name="bancoFisico">     Existem vários bancos que oferecem linhas de financiamento especiais para energia renovável. As taxas de financiamento partem geralmente de 0,9% ao mês e contam com diferentes opções de carência, a tarifa depende da análise do cliente. Para essa simulação foi considerado um juros de 1% ao mês e o pagamento em um prazo de 60 meses, sem carência.</string>
+    <string name="email"> Após o cadastro será enviado um e-mail de verificação (o e-mail pode ir para caixa de spam)</string>
+    <string name="textoExplicacao">O App da Sunso dimensiona de maneira simples um sistema solar para você bem como faz uma simulação do sistema. Para fazer o dimensionamento você precisa inserir três dados, o estado onde está localizado, o consumo médio que você pode encontrar na conta de luz e a tarifa que você paga pela energia. Para qualquer dúvida entre em contato no envelope acima, bom proveito !</string>
+
+
+</resources>

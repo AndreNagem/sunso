@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/consumoMedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+        android:hint="Consumo Medio (kWh/mês)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Média dos ultimos doze meses">
+
+    </TextView>
+
+
+
+    <EditText
+        android:id="@+id/valorTarifa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"
+        android:hint="Valor Tarifa (R$)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:text="TE + TUSD ">
+
+    </TextView>
+
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/conta" />
+
+
+    <Button
+        android:id="@+id/proximo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:background="@drawable/botao_redondo"
+        android:text="Próximo"
+        android:textColor="@color/Branco"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

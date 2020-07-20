@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+        <Button
+                android:id="@+id/acre"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="@string/Acre"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/alagoas"
+
+                />
+        <Button
+                android:id="@+id/alagoas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/amapa"
+                android:textStyle="bold"
+                android:text="Alagoas"/>
+        <Button
+
+                android:id="@+id/amapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Amapá"
+                app:layout_constraintBottom_toTopOf="@id/amazonas"/>
+        <Button
+                android:id="@+id/amazonas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Amazonas"
+                app:layout_constraintBottom_toTopOf="@id/bahia"/>
+        <Button
+                android:id="@+id/bahia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bahia"
+                app:layout_constraintBottom_toTopOf="@id/ceara"/>
+        <Button
+                android:id="@+id/ceara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Ceará"
+                app:layout_constraintBottom_toTopOf="@id/distritofederal"/>
+        <Button
+                android:id="@+id/distritofederal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Distrito Federal"
+                app:layout_constraintBottom_toTopOf="@id/espiritosanto"/>
+        <Button
+                android:id="@+id/espiritosanto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Espirito Santo"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/goias"/>
+        <Button
+                android:id="@+id/goias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Goiás"
+                app:layout_constraintBottom_toTopOf="@id/maranhao"/>
+        <Button
+                android:id="@+id/maranhao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Maranhão"
+                app:layout_constraintBottom_toTopOf="@id/matogrosso"/>
+        <Button
+                android:id="@+id/matogrosso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mato Grosso"
+                app:layout_constraintBottom_toTopOf="@id/matogrossodosul"/>
+        <Button
+                android:id="@+id/matogrossodosul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mato Grosso do Sul"
+                app:layout_constraintBottom_toTopOf="@id/minasgerais"/>
+        <Button
+                android:id="@+id/minasgerais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Minas Gerais"
+                app:layout_constraintBottom_toTopOf="@id/para"/>
+        <Button
+                android:id="@+id/para"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pará"
+                app:layout_constraintBottom_toTopOf="@id/paraiba"/>
+        <Button
+                android:id="@+id/paraiba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Paraíba"
+                app:layout_constraintBottom_toTopOf="@id/pernambuco"/>
+        <Button
+                android:id="@+id/pernambuco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Pernambuco"
+                app:layout_constraintBottom_toTopOf="@id/piaui"/>
+        <Button
+                android:id="@+id/piaui"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Piauí"
+                app:layout_constraintBottom_toTopOf="@id/riodejaneiro"/>
+        <Button
+                android:id="@+id/riodejaneiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rio de Janeiro"
+                app:layout_constraintBottom_toTopOf="@id/riograndedonorte"/>
+        <Button
+                android:id="@+id/riograndedonorte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rio Grande do Norte"
+                app:layout_constraintBottom_toTopOf="@id/rioGrandedoSul"/>
+        <Button
+                android:id="@+id/rioGrandedoSul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rio Grande do Sul"
+                app:layout_constraintBottom_toTopOf="@id/rondonia"/>
+        <Button
+                android:id="@+id/rondonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Rondônia"
+                app:layout_constraintBottom_toTopOf="@id/roraima"/>
+        <Button
+                android:id="@+id/roraima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Roraima"
+                app:layout_constraintBottom_toTopOf="@id/santacatarina"/>
+        <Button
+                android:id="@+id/santacatarina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Santa Catarina"
+                app:layout_constraintBottom_toTopOf="@id/saoPaulo"/>
+        <Button
+                android:id="@+id/saoPaulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="São Paulo"
+                app:layout_constraintBottom_toTopOf="@id/sergipe"/>
+        <Button
+                android:id="@+id/sergipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sergipe"
+                app:layout_constraintBottom_toTopOf="@id/tocantins"/>
+        <Button
+                android:id="@+id/tocantins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Tocantins"
+                app:layout_constraintBottom_toTopOf="parent"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

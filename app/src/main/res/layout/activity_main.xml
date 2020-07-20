@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+            android:background="@color/Branco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+                android:contentDescription="@string/app_name"
+                android:id ="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="60dp"
+                android:src="@drawable/logo" />
+        <EditText
+                android:id="@+id/login_campoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="textEmailAddress"
+                android:hint="E-mail"
+                />
+
+
+        <EditText
+                android:id="@+id/login_campoSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:hint="Senha"
+                android:inputType="textPassword" />
+
+
+
+
+        <Button
+                android:id="@+id/login_entrar"
+                android:background="@drawable/botao_redondo"
+                android:textStyle="bold"
+                android:textColor="@color/Branco"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/login_criar"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNome"
+                android:text="ENTRAR" />
+
+        <Button
+                android:id="@+id/login_criar"
+                android:background="@drawable/botao_redondo"
+                android:textStyle="bold"
+                android:textColor="@color/Branco"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toStartOf="@+id/login_entrar"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayoutNome"
+                android:text="CADASTRAR" />
+
+
+
+    </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
